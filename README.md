@@ -1,77 +1,11 @@
-# Django-boilerplate with App Core and start base index in bootstrap 5.2- HBNetwork
+# Projeto Django Adote
+
+Layout FIGMA
+https://www.figma.com/file/aE3ZjOTUyI7zJJvocfLpHN/PSW---O-RETORNO?node-id=0%3A1
 
 
-### Deploy a fully configured Django Application the fastest way!
+Aula 1:
+https://grizzly-amaranthus-f6a.notion.site/AULA-1-PSW-O-RETORNO-485ed19ee901451fb14ee39bfd6e65f3
 
-This template includes:
-* Django version: 4.1.x
-* Easy settings setup with [Decouple](https://github.com/hbnetwork/python-decouple)  
-* Use of URL's to manage database access : [dj-database-url](https://github.com/jazzband/dj-database-url)  
-* [Black] (https://github.com/psf/black) 
-* [Pytest](https://docs.pytest.org/)
-* [Pytest-django](https://pytest-django.readthedocs.io/en/latest/)
-* [Pytest-cov](https://github.com/pytest-dev/pytest-cov)
-* [Bootstrap@5.2.3](https://getbootstrap.com/docs/5.2/)
-
-
-## Usage
-
-Lets create your project, **you will not clone this repo**, just follow the instructions bellow.
-
-**NOTE**: You may need need to replace **_myproject_** placeholder to your project's name, it can break the installation.
-
-
-### Linux and Mac
-```
-mkdir myproject
-cd myproject
-python3 -m venv .venv 
-source .venv/bin/activate
-pip install django
-```
-
-### Windows
-```
-mkdir myproject
-cd myproject
-python -m venv .venv
-.venv\Scripts\activate
-pip install django
-```
-
-Now we can pull Django Boilerplate Structure to Project 
-
-```
-django-admin startproject --template https://github.com/HBNetwork/django-boilerplate/archive/with-app-bootstrap.zip --name=.env-sample,pytest.ini  myproject .
-```
-
-
-And then, proceed with the installation of the requirements. 
-
-### [PROD]
-```
-pip install -r requirements.txt
-```
-
-
-### [DEV]
-```
-pip install -r requirements-dev.txt
-```
-
-
-## Configuring Settings 
-- rename .env-sample to .env and adjust settings accordingly
-
-
-## Tips
-- python manage.py check  
-- python manage.py migrate  
-- python manage.py collectstatic  
-
-## Future possibilities
-- Poetry
-- Containers (Docker)
-- Pre-commit hooks
-- Github actions
-
+Aula 2:
+https://grizzly-amaranthus-f6a.notion.site/AULA-2-PSW-O-RETORNO-00e6f040e08049d886957792beb4a46b

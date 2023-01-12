@@ -23,6 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('adote.core.urls')),
     path('auth/', include('adote.usuarios.urls')),    
+    path('divulgar/', include('adote.divulgar.urls')),    
+    path('adotar/', include('adote.adotar.urls'))    
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

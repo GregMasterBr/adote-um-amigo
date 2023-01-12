@@ -48,7 +48,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'adote.core.apps.CoreConfig',
     'adote.usuarios.apps.UsuariosConfig',
+    'adote.divulgar.apps.DivulgarConfig',
+    'adote.adotar.apps.AdotarConfig',
+
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -134,7 +138,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'adote' / 'static',
 ]
 
-MEDIA_ROOT = BASE_DIR, 'media'
+MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
 
 # Default primary key field type
